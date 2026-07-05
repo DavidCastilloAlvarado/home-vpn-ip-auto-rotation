@@ -32,7 +32,7 @@ def change_dns(public_ip):
     )
 
 def lambda_handler(event, context):
-    # SUBDOMAIN: vpn-lt44.nutqutek.com
+    # SUBDOMAIN: mysub.domain.com
     encoded_body = event.get("body")
     decoded_bytes = base64.b64decode(encoded_body)
     decoded = decoded_bytes.decode("utf-8")
