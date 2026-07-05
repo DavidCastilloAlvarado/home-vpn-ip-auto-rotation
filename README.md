@@ -42,7 +42,7 @@ The following environment variables must be configured:
 | Variable | Description | Location |
 | :--- | :--- | :--- |
 | `CUSTOMDDNS_SVC` | The URL of the AWS Lambda function | Local (Home Server) |
-| `API_KEY` | Your IONOS API Key | Local (Home Server) |
+| `API_KEY` | The same custom secret at `lambda_api_key` | Local (Home Server) |
 | `ZONEID` | Your IONOS DNS Zone ID | AWS Lambda |
 | `RECORDID` | Your IONOS DNS Record ID | AWS Lambda |
 | `lambda_api_key` | A custom secret key for the Lambda function | AWS Lambda |
