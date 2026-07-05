@@ -28,6 +28,10 @@ graph TD
 -   **Cloud Integration**: Leverages AWS Lambda and IONOS DNS for seamless record updates.
 -   **Logging**: Detailed logging for debugging and monitoring.
 
+## Documentation
+
+- [IONOS DNS API Documentation](https://developer.hosting.ionos.com/docs/dns)
+
 ## Prerequisites
 
 -   **Python 3.x** installed on your local machine.
